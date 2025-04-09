@@ -63,9 +63,7 @@ export default function Navbar() {
             href="/"
             className={`text-sm font-medium transition-colors ${getLinkTextColor('/')}`}
           >
-            <span className="flex items-center">
-              <PiHouseBold className="mr-1 h-4 w-4" /> Home
-            </span>
+            Home
           </Link>
           <Link
             href="/products"
@@ -86,7 +84,6 @@ export default function Navbar() {
             Contact
           </Link>
           <ThemeToggle />
-          <Button size="sm" className={isScrolled || pathname !== '/' ? "" : "bg-white text-cyan-600 hover:bg-white/90"}>Get Started</Button>
         </nav>
 
         {/* Mobile Navigation Trigger */}
@@ -106,9 +103,7 @@ export default function Navbar() {
             </SheetHeader>
             <nav className="mt-8 flex flex-col space-y-4">
               <Link href="/" className={`text-lg font-medium ${pathname === '/' ? 'text-cyan-600' : ''}`} onClick={() => setIsOpen(false)}>
-                 <span className="flex items-center">
-                  <PiHouseBold className="mr-2 h-5 w-5" /> Home
-                </span>
+                Home
               </Link>
               <Link href="/products" className={`text-lg font-medium ${pathname === '/products' ? 'text-cyan-600' : ''}`} onClick={() => setIsOpen(false)}>
                 Products
@@ -122,9 +117,6 @@ export default function Navbar() {
               <div className="pt-4 border-t border-gray-200 dark:border-gray-700">
                 <ThemeToggle />
               </div>
-              <Button className="mt-6" onClick={() => setIsOpen(false)}>
-                Get Started
-              </Button>
             </nav>
           </SheetContent>
         </Sheet>

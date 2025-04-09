@@ -26,8 +26,8 @@ export default function TestimonialSection() {
       quote:
         "The Lyris transcription service has been a game-changer for our practice. It's like having an extra staff member who never takes a day off.",
       author: "Dr. Emily Carter",
-      title: "Clinic Director",
-      image: "/placeholder-user.jpg",
+      title: "Clinic Director, The Center for Family Medicine",
+      image: "/emilycarter.webp",
     },
     {
       quote:

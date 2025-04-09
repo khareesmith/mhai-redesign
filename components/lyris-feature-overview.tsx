@@ -1,7 +1,6 @@
 "use client"
 
 import Image from "next/image"
-import { CheckCircle } from "lucide-react"
 import { PiCheckCircleFill } from "react-icons/pi";
 import { motion } from "framer-motion"
 import { useInView } from "react-intersection-observer"

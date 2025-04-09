@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button"
 import { ArrowRight, Sparkles } from "lucide-react"
 import { motion } from "framer-motion"
 import { useInView } from "react-intersection-observer"
+import Link from "next/link"
 
 export default function CTASection() {
   const [ref, inView] = useInView({
@@ -99,24 +100,28 @@ export default function CTASection() {
               MyHuman Ai.
             </p>
             <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-x-4 sm:space-y-0">
-              <Button size="lg" className="group relative overflow-hidden bg-white text-cyan-700 hover:bg-cyan-50">
-                <span className="relative z-10 flex items-center">
-                  Schedule a Demo
-                  <motion.div className="ml-2 flex items-center" whileHover={{ x: 5 }}>
-                    <ArrowRight className="h-4 w-4" />
-                  </motion.div>
-                </span>
-                <span className="absolute bottom-0 left-0 h-0 w-full bg-gradient-to-r from-cyan-200 to-blue-200 transition-all duration-300 group-hover:h-full"></span>
-              </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="group relative overflow-hidden border-white text-cyan-700 hover:bg-white/10 hover:text-white dark:text-white dark:hover:text-white"
-              >
-                <span className="relative z-10">Contact Sales</span>
-                <span className="absolute inset-0 border border-white/50 opacity-0 transition-opacity duration-300 group-hover:opacity-100"></span>
-                <span className="absolute -inset-px scale-x-0 bg-white/10 transition-transform duration-300 group-hover:scale-x-100"></span>
-              </Button>
+              <Link href="/contact">
+                <Button size="lg" className="group relative overflow-hidden bg-white text-cyan-700 hover:bg-cyan-50">
+                  <span className="relative z-10 flex items-center">
+                    Schedule a Demo
+                    <motion.div className="ml-2 flex items-center" whileHover={{ x: 5 }}>
+                      <ArrowRight className="h-4 w-4" />
+                    </motion.div>
+                  </span>
+                  <span className="absolute bottom-0 left-0 h-0 w-full bg-gradient-to-r from-cyan-200 to-blue-200 transition-all duration-300 group-hover:h-full"></span>
+                </Button>
+              </Link>
+              <Link href="/contact">
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="group relative overflow-hidden border-white text-cyan-700 hover:bg-white/10 hover:text-white dark:text-white dark:hover:text-white"
+                >
+                  <span className="relative z-10">Contact Us</span>
+                  <span className="absolute inset-0 border border-white/50 opacity-0 transition-opacity duration-300 group-hover:opacity-100"></span>
+                  <span className="absolute -inset-px scale-x-0 bg-white/10 transition-transform duration-300 group-hover:scale-x-100"></span>
+                </Button>
+              </Link>
             </div>
           </div>
         </motion.div>
