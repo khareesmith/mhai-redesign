@@ -24,10 +24,10 @@ export default function TestimonialSection() {
     },
     {
       quote:
-        "The Clarion transcription service has been a game-changer for our practice. It's like having an extra staff member who never takes a day off.",
-      author: "Dr. Michael Chen",
-      title: "Family Physician, Eastside Health Partners",
-      image: "/michaelchen.webp",
+        "The Lyris transcription service has been a game-changer for our practice. It's like having an extra staff member who never takes a day off.",
+      author: "Dr. Emily Carter",
+      title: "Clinic Director",
+      image: "/placeholder-user.jpg",
     },
     {
       quote:

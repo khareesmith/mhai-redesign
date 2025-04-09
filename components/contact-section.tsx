@@ -64,15 +64,19 @@ export default function ContactSection() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <h1 className="mb-4 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl md:text-5xl">
+            <motion.h2
+              className="mb-4 text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl"
+            >
               Contact Us
-            </h1>
-            <p className="mb-6 text-lg text-cyan-700 dark:text-cyan-400">
-              See firsthand how the Clarion product suite handles even the most complex cases with unmatched precision.
-            </p>
-            <p className="mb-8 text-gray-600 dark:text-gray-400">
+            </motion.h2>
+            <motion.p
+              className="mx-auto mb-6 max-w-2xl text-lg text-gray-600 dark:text-gray-400"
+            >
+              See firsthand how the Lyris product suite handles even the most complex cases with unmatched precision.
+            </motion.p>
+            <motion.p className="mb-8 text-gray-600 dark:text-gray-400">
               Fill out the form to receive more information, or give us a call.
-            </p>
+            </motion.p>
             <div className="space-y-4">
               <a href="tel:4698846555" className="flex items-center text-gray-700 hover:text-cyan-600 dark:text-gray-300 dark:hover:text-cyan-400 transition-colors">
                 <PiPhoneFill className="mr-3 h-5 w-5" />

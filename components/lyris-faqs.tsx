@@ -24,8 +24,8 @@ const faqs = [
   },
 ]
 
-export default function ClarionFAQs() {
-  const [ref, inView] = useInView({
+export default function LyrisFAQs() {
+  const { ref, inView } = useInView({
     triggerOnce: true,
     threshold: 0.1,
   })

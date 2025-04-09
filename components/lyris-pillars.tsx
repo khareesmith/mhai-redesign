@@ -4,26 +4,27 @@ import { motion } from "framer-motion"
 import { useInView } from "react-intersection-observer"
 // import { ShieldCheck, UserCheck, Zap } from "lucide-react" // Example icons
 import { PiShieldCheckFill, PiUserCircleCheckFill, PiLightningFill } from "react-icons/pi";
+import { FiUsers, FiTarget, FiShield } from "react-icons/fi"
 
 const pillars = [
   {
-    icon: PiLightningFill,
+    icon: FiUsers,
     title: "Accessibility",
     description: "Patients can provide requisite information quickly and easily.",
   },
   {
-    icon: PiUserCircleCheckFill,
+    icon: FiTarget,
     title: "Personalization",
     description: "Providers wield unequivocal command over patient experience.",
   },
   {
-    icon: PiShieldCheckFill,
+    icon: FiShield,
     title: "Ethical Technology",
     description: "Ensuring ethical excellence in the technological landscape.",
   },
 ]
 
-export default function ClarionPillars() {
+export default function LyrisPillars() {
   const [ref, inView] = useInView({
     triggerOnce: true,
     threshold: 0.1,

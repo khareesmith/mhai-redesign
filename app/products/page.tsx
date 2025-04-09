@@ -1,21 +1,22 @@
 import React from "react";
 
 // TODO: Import components once created
+import CTASection from "@/components/cta-section";
 import ProductHeader from "@/components/product-header";
-import ClarionFeatureOverview from "@/components/clarion-feature-overview";
-import ClarionPillars from "@/components/clarion-pillars";
-import ClarionJourney from "@/components/clarion-journey";
-import ClarionFAQs from "@/components/clarion-faqs";
+import LyrisFeatureOverview from "@/components/lyris-feature-overview";
+import LyrisPillars from "@/components/lyris-pillars";
+import LyrisJourney from "@/components/lyris-journey";
+import LyrisFAQs from "@/components/lyris-faqs";
 
 export default function ProductsPage() {
   return (
-    <main className="flex min-h-screen flex-col items-center">
+    <>
       <ProductHeader />
-      <ClarionFeatureOverview />
-      <ClarionPillars />
-      <ClarionJourney />
-      <ClarionFAQs />
-      {/* <h1 className="pt-24 text-4xl">Products Page (Placeholder)</h1> */}{/* Placeholder Content */}
-    </main>
+      <LyrisFeatureOverview />
+      <LyrisPillars />
+      <LyrisJourney />
+      <LyrisFAQs />
+      <CTASection />
+    </>
   );
 } 

@@ -3,32 +3,37 @@
 import Image from "next/image"
 import { motion } from "framer-motion"
 import { useInView } from "react-intersection-observer"
+import { PiTextTBold, PiPhoneCallBold, PiClipboardTextBold, PiFloppyDiskBold } from "react-icons/pi"
 
 const journeySteps = [
   {
-    title: "Patient Receives Intake Invitation",
-    description: "After scheduling, patients receive an intake invitation via text, email, or phone prompting them to start.",
-    image: "/notification.webp",
+    icon: PiTextTBold,
+    title: "Patient Receives Invite",
+    description: "A text, email, or phone invite prompts the patient to begin intake.",
+    image: "/journey-invite.webp",
   },
   {
-    title: "Automated Intake Call from Clarion Ai",
-    description: "Clicking the invite link immediately triggers an automated call from Clarion Ai to begin the intake.",
-    image: "/phonecall.webp",
+    icon: PiPhoneCallBold,
+    title: "Automated Intake Call from Lyris Ai",
+    description: "Clicking the invite link immediately triggers an automated call from Lyris Ai to begin the intake.",
+    image: "/journey-call.webp",
   },
   {
-    title: "Clarion Ai Guides Intake with Your Custom Script",
-    description: "Clarion Ai carefully follows your office's custom script, asking all necessary intake and follow-up questions.",
-    image: "/script2.webp",
+    icon: PiClipboardTextBold,
+    title: "Lyris Ai Guides Intake with Your Custom Script",
+    description: "Lyris Ai carefully follows your office's custom script, asking all necessary intake and follow-up questions.",
+    image: "/journey-script.webp",
   },
   {
-    title: "Instant Summary with Key Patient Info",
-    description: "After the call, your office instantly receives a summarized transcript with key patient information.",
-    image: "/transcription-2.webp",
+    icon: PiFloppyDiskBold,
+    title: "Instant Transcription & Summary",
+    description: "Summary notes are instantly sent to the office with key information highlighted, ready for review.",
+    image: "/journey-summary.webp",
   },
 ]
 
-export default function ClarionJourney() {
-  const [ref, inView] = useInView({
+export default function LyrisJourney() {
+  const { ref, inView } = useInView({
     triggerOnce: true,
     threshold: 0.1,
   })

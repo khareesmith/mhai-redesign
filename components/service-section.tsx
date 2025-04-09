@@ -57,7 +57,7 @@ export default function ServiceSection() {
             animate={inView ? { x: 0, opacity: 1 } : { x: 50, opacity: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
           >
-            <h2 className="mb-2 text-3xl font-bold tracking-tight sm:text-4xl">Clarion Medical Transcription</h2>
+            <h2 className="mb-2 text-3xl font-bold tracking-tight sm:text-4xl">Lyris Medical Transcription</h2>
             <p className="mb-6 text-lg font-medium text-gray-700 dark:text-gray-300">
               We're committed to making healthcare more efficient
             </p>

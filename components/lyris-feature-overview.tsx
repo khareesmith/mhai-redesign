@@ -1,22 +1,21 @@
 "use client"
 
 import Image from "next/image"
-// import { CheckCircle } from "lucide-react"
+import { CheckCircle } from "lucide-react"
 import { PiCheckCircleFill } from "react-icons/pi";
 import { motion } from "framer-motion"
 import { useInView } from "react-intersection-observer"
 
 const features = [
   "Performs patient intake, transcription, and summarization",
-  "Available 24/7",
-  "Scalable to meet demand",
-  "Multilingual capabilities to serve diverse patient populations",
+  "Available 24/7, scalable to meet any demand",
+  "Multilingual capabilities for diverse patient populations",
   "Regulatory and HIPAA compliant out-of-the-box",
   "Eliminates human error & never has a bad day",
 ]
 
-export default function ClarionFeatureOverview() {
-  const [ref, inView] = useInView({
+export default function LyrisFeatureOverview() {
+  const { ref, inView } = useInView({
     triggerOnce: true,
     threshold: 0.1,
   })
@@ -33,12 +32,12 @@ export default function ClarionFeatureOverview() {
           {/* Content column */}
           <motion.div
             className="flex flex-col justify-center"
-            initial={{ x: -50, opacity: 0 }}
-            animate={inView ? { x: 0, opacity: 1 } : { x: -50, opacity: 0 }}
+            initial={{ opacity: 0, y: 20 }}
+            animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            <h2 className="mb-6 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
-              Clarion Patient Intake
+            <h2 className="mb-4 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
+              Lyris Patient Intake
             </h2>
             <ul className="space-y-4">
               {features.map((feature, index) => (
@@ -59,14 +58,15 @@ export default function ClarionFeatureOverview() {
           {/* Image column */}
           <motion.div
             className="relative aspect-video overflow-hidden rounded-2xl"
-            initial={{ x: 50, opacity: 0 }}
-            animate={inView ? { x: 0, opacity: 1 } : { x: 50, opacity: 0 }}
+            initial={{ opacity: 0, scale: 0.95 }}
+            animate={inView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.95 }}
             transition={{ duration: 0.6, delay: 0.4 }}
           >
             <Image
-              src="/call.webp"
-              alt="Clarion Patient Intake Application Screenshot"
-              fill
+              src="/patient-intake.webp"
+              alt="Lyris Patient Intake Application Screenshot"
+              width={600}
+              height={400}
               className="object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/10 via-transparent to-blue-500/10 opacity-50"></div>

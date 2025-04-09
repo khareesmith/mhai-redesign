@@ -4,42 +4,41 @@ import Image from "next/image"
 import { motion } from "framer-motion"
 import { useInView } from "react-intersection-observer"
 
-// Placeholder Data - Replace with actual team info
 const founders = [
   {
-    name: "Founder One Name",
-    title: "Co-Founder & CEO",
+    name: "Andrew Schroeder",
+    title: "Co-Founder",
     image: "/placeholder-person.svg?text=F1&height=200&width=200",
   },
   {
-    name: "Founder Two Name",
-    title: "Co-Founder & CTO",
+    name: "Austin Hamilton",
+    title: "Co-Founder",
     image: "/placeholder-person.svg?text=F2&height=200&width=200",
   },
 ];
 
 const keyTeam = [
   {
-    name: "Key Person One",
-    title: "Head of Product",
+    name: "Sharon Teske",
+    title: "Title",
     image: "/placeholder-person.svg?text=K1&height=150&width=150",
   },
   {
-    name: "Key Person Two",
-    title: "Lead Engineer",
+    name: "Alex Langkowski",
+    title: "Title",
     image: "/placeholder-person.svg?text=K2&height=150&width=150",
   },
   {
-    name: "Key Person Three",
-    title: "Marketing Director",
+    name: "Chris Llorca",
+    title: "Title",
     image: "/placeholder-person.svg?text=K3&height=150&width=150",
   },
 ];
 
 const otherTeam = [
   {
-    name: "Team Member One",
-    title: "Software Engineer",
+    name: "Kharee Smith",
+    title: "Title",
     image: "/placeholder-person.svg?text=T1&height=100&width=100",
   },
   {

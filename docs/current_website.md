@@ -42,11 +42,11 @@ A breakdown of the homepage content and design prior to any updates or redesign 
 
 ---
 
-## 3. Service Intro — Clarion Medical Transcription
+## 3. Service Intro — Lyris Medical Transcription
 
 ### Content
-- **Service Name:** Clarion Medical Transcription
-- **Subheading:** *"We’re committed to making healthcare more efficient"*
+- **Service Name:** Lyris Medical Transcription
+- **Subheading:** *"We're committed to making healthcare more efficient"*
 
 ### Design
 - **Layout:**
@@ -63,7 +63,7 @@ A breakdown of the homepage content and design prior to any updates or redesign 
 
 ### Content
 - **Full Pitch Text:**
-  > We’re committed to making healthcare more efficient and reliable. Our advanced AI technology ensures that every interaction is captured with unparalleled accuracy, helping healthcare providers save time, reduce administrative burden, and focus on what matters most—patient care.
+  > We're committed to making healthcare more efficient and reliable. Our advanced AI technology ensures that every interaction is captured with unparalleled accuracy, helping healthcare providers save time, reduce administrative burden, and focus on what matters most—patient care.
 - **CTA Button:** `LEARN MORE` (uppercase, prominent)
 
 ### Design
@@ -110,14 +110,14 @@ The homepage sets a clear tone of combining human-centered services with AI prec
 
 ---
 
-## 🧪 Products Page – Clarion Patient Intake
+## 🧪 Products Page – Lyris Patient Intake
 
 ### 1. Product Introduction Header
 
 #### Content
 - **Main Heading:** *Ai-Powered Patient Intake*
-- **Subheading/Product Label:** *"Clarion"*
-- Introduces Clarion as the AI-driven solution for handling patient intake in a healthcare setting.
+- **Subheading/Product Label:** *"Lyris"*
+- Introduces Lyris as the AI-driven solution for handling patient intake in a healthcare setting.
 
 #### Design
 - **Background:** Light gray fill
@@ -128,10 +128,10 @@ The homepage sets a clear tone of combining human-centered services with AI prec
 
 ---
 
-### 2. Clarion Patient Intake – Feature Overview
+### 2. Lyris Patient Intake – Feature Overview
 
 #### Content
-- **Section Title:** Clarion Patient Intake
+- **Section Title:** Lyris Patient Intake
 - **Key Features:**
   - Performs patient intake, transcription, and summarization
   - Available 24/7
@@ -148,7 +148,7 @@ The homepage sets a clear tone of combining human-centered services with AI prec
 
 ---
 
-### 3. Core Pillars of Clarion
+### 3. Core Pillars of Lyris
 
 #### Value Propositions
 - **Accessibility:** Patients can provide requisite information quickly and easily.
@@ -168,11 +168,11 @@ The homepage sets a clear tone of combining human-centered services with AI prec
 1. **Patient Receives an Invitation**  
    *A text, email, or phone invite prompts the patient to begin paperwork.*
 
-2. **Phone call from Clarion Ai**  
+2. **Phone call from Lyris Ai**  
    *Patient receives an AI-led phone call after clicking the invite link.*
 
 3. **The intake script is followed**  
-   *Clarion uses a predefined script to guide the intake conversation.*
+   *Lyris uses a predefined script to guide the intake conversation.*
 
 4. **Transcription**  
    *Summary notes are instantly sent to the office with key information.*
@@ -191,21 +191,21 @@ Addresses common concerns regarding security, setup effort, and AI reliability.
 
 ---
 
-#### Q1: *Is my medical information secure? Will my patients' information ‘show up on the internet’?*  
+#### Q1: *Is my medical information secure? Will my patients' information 'show up on the internet'?*  
 **A:**  
-Every part of the process from authenticating users, to storage of past conversations is HIPAA compliant and user encrypted. Standard patient intake transcriptions and summarizations are stored on your office’s environment and deleted from MHAi’s systems within 90 days of intake.
+Every part of the process from authenticating users, to storage of past conversations is HIPAA compliant and user encrypted. Standard patient intake transcriptions and summarizations are stored on your office's environment and deleted from MHAi's systems within 90 days of intake.
 
 ---
 
 #### Q2: *How much up-front work is this going to be for my office team?*  
 **A:**  
-Our base Patient Intake Ai module requires a list of intake questions from your office, as well as any secondary questions your team would want answered. Your office likely already has a version of this for training new staff. If not, filling out and reviewing this script can take anywhere between 30 minutes and 2 hours, depending on the level of detail your team wants covered in the initial consult. In addition to the intake questions, we will want your team’s review and approval before real-world deployment to ensure you are happy with your bespoke Patient Intake Ai before it deploys.
+Our base Patient Intake Ai module requires a list of intake questions from your office, as well as any secondary questions your team would want answered. Your office likely already has a version of this for training new staff. If not, filling out and reviewing this script can take anywhere between 30 minutes and 2 hours, depending on the level of detail your team wants covered in the initial consult. In addition to the intake questions, we will want your team's review and approval before real-world deployment to ensure you are happy with your bespoke Patient Intake Ai before it deploys.
 
 ---
 
-#### Q3: *Help me understand why the Patient Intake Ai doesn’t hallucinate when I hear that that’s a big problem with Ai?*  
+#### Q3: *Help me understand why the Patient Intake Ai doesn't hallucinate when I hear that that's a big problem with Ai?*  
 **A:**  
-What makes MHAi technology different is that we have strict guardrails on our proprietary base module (which can be adjusted, improved, changed) to ensure the conversation is guided by our clients’ processes and goals. The Patient Intake Ai cannot get agitated or act in a rude or dismissive manner like real humans can. It also cannot give advice or answer questions with creativity (performing deeply creative tasks is where hallucination can occur in some commercial Ai products, and that is disabled by our guardrails.)
+What makes MHAi technology different is that we have strict guardrails on our proprietary base module (which can be adjusted, improved, changed) to ensure the conversation is guided by our clients' processes and goals. The Patient Intake Ai cannot get agitated or act in a rude or dismissive manner like real humans can. It also cannot give advice or answer questions with creativity (performing deeply creative tasks is where hallucination can occur in some commercial Ai products, and that is disabled by our guardrails.)
 
 ---
 
@@ -218,10 +218,10 @@ What makes MHAi technology different is that we have strict guardrails on our pr
 
 ### ✅ Summary
 
-The Clarion Patient Intake product page walks users through:
-- What Clarion is
+The Lyris Patient Intake product page walks users through:
+- What Lyris is
 - How it works
-- Why it’s useful
+- Why it's useful
 - What makes it trustworthy
 
 The design keeps consistency with the homepage but introduces more interaction and educational elements like the visual journey and FAQs.
@@ -235,7 +235,7 @@ The design keeps consistency with the homepage but introduces more interaction a
 #### Content
 - **Main Heading:** Contact Us
 - **Supporting Text:**
-  > *See firsthand how the Clarion product suite handles even the most complex cases with unmatched precision.*
+  > *See firsthand how the Lyris product suite handles even the most complex cases with unmatched precision.*
 
   > *Fill out the form below to receive more information, or give us a call at*  
   **469 884 6555**
